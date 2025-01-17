@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF2E7;
+}   
+
+.conteudo-escrito {
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.678);
+    position: absolute;
+    background-color: #ECD6C4;
+    width: 350px;
+    height: 220px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-weight: 400;
+    color: #8e5d52;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.9rem;
+}
+
+input[type="text"] {
+    width: 94.5%;
+    margin: 10px;
+    margin-top: 2px;
+    border-radius: 5px;
+    height: 25px;
+    border: none;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type="password"] {
+    width: 94.5%;
+    margin: 10px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    height: 25px;
+    border: none;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.input::placeholder {
+    color: #cbbba7;
+}
+
+label {
+    font-family: 'Sarala' sans-serif;
+    color: #8e5d52;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 13px; 
+}
+
+button {
+    background-color: #cbbba7;
+    border: none;
+    color: #331f19;
+    border-radius: 6px;
+    height: 25px;
+    width: 60px;
+    margin-left: 9rem;
+    cursor: pointer;
+    font-family: 'Sarala' sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: #FFF2E7;
+}
+
+.ancora {
+    font-family: 'Sarala' sans-serif;
+    color: #331f19;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 16.4rem;
+}
+
+.ancora:hover {
+    color: #8e5d52;
+}
+
+
+
