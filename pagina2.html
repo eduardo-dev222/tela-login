@@ -10,11 +10,11 @@
     <main>
         <div class="conteudo">
             <h3 class="conteudo-titulo">Crie sua conta</h3>
-            <form>
+            <form onsubmit="return false">
                 <label for="nome">Insira seu nome</label><br>
-                <input type="text" id="nome" name="nome"><br>
+                <input type="text" id="criar-nome" name="nome"><br>
                 <label for="senha">Crie uma senha</label><br>
-                <input type="password" id="senha" name="password"><br>
+                <input type="password" id="criar-senha" name="password"><br>
                 <label for="email">Insira um email</label><br>
                 <input type="email" id="email" name="email"><br>
                 <label for="data">Insira sua data de nascimento</label><br>
@@ -29,9 +29,10 @@
                 <label for="other">Outro</label>
                 <input type="radio" value="Outro" name="genero" id="other"><br>
                 <a class="voltar" href="index.html">Voltar</a>
-                <button onclick="alert('Conta criada com sucesso!')" class="butao">Criar conta</button>
+                <button onclick="criarConta()" class="butao">Criar conta</button>
             </form>
         </div>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>

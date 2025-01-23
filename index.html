@@ -10,15 +10,16 @@
     <main>
         <div class="conteudo-escrito">
             <h2 class="titulo">Login</h2>
-            <form>
+            <form onsubmit="return false">
                 <label for="name">Nome</label><br>
-                <input type="text" id="name" name="nome" placeholder="Insira seu nome..."><br>
+                <input type="text" id="nome-usuario" name="nome" placeholder="Insira seu nome..."><br>
                 <label for="senha">Senha</label><br>
-                <input type="password" id="senha" name="senha" placeholder="Insira sua senha..."><br>
-                <button class="botao" onclick="alert('Login feito com sucesso!')">Entrar</button><br>
+                <input type="password" id="senha-usuario" name="senha" placeholder="Insira sua senha..."><br>
+                <button class="botao" onclick="verificarLogin()">Entrar</button><br>
                 <a class="ancora" href="pagina2.html">Criar conta</a>
             </form>
         </div>
     </main>
+    <script src= "app.js"></script>
 </body>
 </html>
